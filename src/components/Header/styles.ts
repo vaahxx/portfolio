@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.header`
   display: flex;
-  justify-content: space-between;
 
   h1 {
     color: var(--rose);
@@ -13,7 +12,9 @@ export const Container = styled.header`
   }
 
   img {
-    max-width: 300px;
+    object-fit: cover;
+    min-width: 60%;
+    max-height: calc(100vh - 4rem);
   }
 
   .title {
@@ -21,5 +22,7 @@ export const Container = styled.header`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    left: 5%;
   }
 `;
