@@ -1,11 +1,17 @@
-import { Container, Content } from "./styles";
+import { Container } from "./styles";
+import photoDraw from "../../assets/photo-draw.jpeg";
 
-interface HeaderProps {}
-
-export function Header(props: HeaderProps) {
+export function Header() {
   return (
     <Container>
-      <Content></Content>
+      <div>
+        <img src={photoDraw}></img>
+      </div>
+      <div className="title">
+        <h1>valentina</h1>
+        <h1>garavaglia</h1>
+        <h2>front-end developer</h2>
+      </div>
     </Container>
   );
 }

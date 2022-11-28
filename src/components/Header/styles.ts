@@ -1,15 +1,25 @@
 import styled from "styled-components";
 
 export const Container = styled.header`
-  background: linear-gradient(100deg, #fd385d 0%, #ffc783 50%, #fd9581 100%);
-  border-bottom: 1px solid black;
-`;
-
-export const Content = styled.div`
-  max-width: 1120px;
-  margin: 0 auto;
-  padding: 2rem 1rem 5rem;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+
+  h1 {
+    color: var(--rose);
+    font-family: "Rouge Script";
+    font-size: 6rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  img {
+    max-width: 300px;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 `;
