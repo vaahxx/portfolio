@@ -6,8 +6,15 @@ export function Footer() {
   return (
     <Container>
       <div className="socialMedia">
-        <LinkedIn />
-        <Github />
+        <a
+          href="https://www.linkedin.com/in/valentina-garavaglia/"
+          target="_blank"
+        >
+          <LinkedIn />
+        </a>
+        <a href="https://github.com/vaahxx" target="_blank">
+          <Github />
+        </a>
       </div>
     </Container>
   );
