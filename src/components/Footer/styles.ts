@@ -7,5 +7,12 @@ export const Container = styled.footer`
   background: var(--rose);
   /* background: linear-gradient(100deg, #fd385d 0%, #ffc783 50%, #fd9581 100%); */
   /* background-image: url(background); */
-  opacity: 50%;
+  /* opacity: 70%; */
+
+  svg {
+    max-width: 1rem;
+    max-height: 1rem;
+    fill: black;
+    margin: 1rem;
+  }
 `;
